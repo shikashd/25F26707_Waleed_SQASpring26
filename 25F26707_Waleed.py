@@ -2,7 +2,7 @@ customer_spending = [1200, 750, 300, 1500, 450]
 
 for spending in customer_spending:
     if spending >= 1000:
-        print(spending, "- High-value customer")
+        print(spending, "- VIP High-value customer")
     elif spending >= 500:
         print(spending, "- Medium-value customer")
     else:
